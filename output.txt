@@ -3,149 +3,147 @@ Validation set size: 5000x3x32x32.
 Test set size: 5000x3x32x32.
 Using algorithm: Convolutional Neural Network.
 Running in fresh_start mode.
-Using GPU: Tesla P100-PCIE-16GB.
+Using GPU: Tesla P4.
 Running...
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to data/cifar-10-python.tar.gz
+170500096/? [00:20<00:00, 32336707.57it/s]
+Extracting data/cifar-10-python.tar.gz to data
 Files already downloaded and verified
-Files already downloaded and verified
-Epoch: 1.	Avg.loss: 0.02361525763273239.	Accuracy: 46.98%.
-Checkpoint saved.	At epoch: 1.	With accuracy: 46.98%.
-Epoch: 2.	Avg.loss: 0.01980122753381729.	Accuracy: 54.84%.
-Checkpoint saved.	At epoch: 2.	With accuracy: 54.84%.
-Epoch: 3.	Avg.loss: 0.01757427363395691.	Accuracy: 60.52%.
-Checkpoint saved.	At epoch: 3.	With accuracy: 60.52%.
-Epoch: 4.	Avg.loss: 0.016192873919010163.	Accuracy: 63.5%.
-Checkpoint saved.	At epoch: 4.	With accuracy: 63.5%.
-Epoch: 5.	Avg.loss: 0.015309479880332946.	Accuracy: 65.9%.
-Checkpoint saved.	At epoch: 5.	With accuracy: 65.9%.
-Epoch: 6.	Avg.loss: 0.01425373066663742.	Accuracy: 68.46%.
-Checkpoint saved.	At epoch: 6.	With accuracy: 68.46%.
-Epoch: 7.	Avg.loss: 0.01373502700328827.	Accuracy: 69.26%.
-Checkpoint saved.	At epoch: 7.	With accuracy: 69.26%.
-Epoch: 8.	Avg.loss: 0.013447226816415787.	Accuracy: 70.1%.
-Checkpoint saved.	At epoch: 8.	With accuracy: 70.1%.
-Epoch: 9.	Avg.loss: 0.012893582963943481.	Accuracy: 70.7%.
-Checkpoint saved.	At epoch: 9.	With accuracy: 70.7%.
-Epoch: 10.	Avg.loss: 0.012581295621395112.	Accuracy: 71.56%.
-Checkpoint saved.	At epoch: 10.	With accuracy: 71.56%.
-Epoch: 11.	Avg.loss: 0.01253948118686676.	Accuracy: 72.44%.
-Checkpoint saved.	At epoch: 11.	With accuracy: 72.44%.
-Epoch: 12.	Avg.loss: 0.011702294617891311.	Accuracy: 73.86%.
-Checkpoint saved.	At epoch: 12.	With accuracy: 73.86%.
-Epoch: 13.	Avg.loss: 0.011453576272726059.	Accuracy: 74.8%.
-Checkpoint saved.	At epoch: 13.	With accuracy: 74.8%.
-Epoch: 14.	Avg.loss: 0.011052769458293915.	Accuracy: 74.8%.
-Epoch: 15.	Avg.loss: 0.010845905396342278.	Accuracy: 75.98%.
-Checkpoint saved.	At epoch: 15.	With accuracy: 75.98%.
-Epoch: 16.	Avg.loss: 0.01090780604481697.	Accuracy: 76.0%.
-Checkpoint saved.	At epoch: 16.	With accuracy: 76.0%.
-Epoch: 17.	Avg.loss: 0.010547581446170807.	Accuracy: 77.06%.
-Checkpoint saved.	At epoch: 17.	With accuracy: 77.06%.
-Epoch: 18.	Avg.loss: 0.010041665577888489.	Accuracy: 77.8%.
-Checkpoint saved.	At epoch: 18.	With accuracy: 77.8%.
-Epoch: 19.	Avg.loss: 0.011074143606424332.	Accuracy: 75.48%.
-Epoch: 20.	Avg.loss: 0.009943608653545379.	Accuracy: 78.48%.
-Checkpoint saved.	At epoch: 20.	With accuracy: 78.48%.
-Epoch: 21.	Avg.loss: 0.01050387647151947.	Accuracy: 77.4%.
-Epoch: 22.	Avg.loss: 0.009777895867824555.	Accuracy: 78.66%.
-Checkpoint saved.	At epoch: 22.	With accuracy: 78.66%.
-Epoch: 23.	Avg.loss: 0.010376621997356415.	Accuracy: 77.86%.
-Epoch: 24.	Avg.loss: 0.009625047659873962.	Accuracy: 78.98%.
-Checkpoint saved.	At epoch: 24.	With accuracy: 78.98%.
-Epoch: 25.	Avg.loss: 0.009501841950416565.	Accuracy: 79.52%.
-Checkpoint saved.	At epoch: 25.	With accuracy: 79.52%.
-Epoch: 26.	Avg.loss: 0.009405714350938796.	Accuracy: 79.98%.
-Checkpoint saved.	At epoch: 26.	With accuracy: 79.98%.
-Epoch: 27.	Avg.loss: 0.008953916111588477.	Accuracy: 80.4%.
-Checkpoint saved.	At epoch: 27.	With accuracy: 80.4%.
-Epoch: 28.	Avg.loss: 0.009243994730710983.	Accuracy: 79.34%.
-Epoch: 29.	Avg.loss: 0.009226250091195107.	Accuracy: 79.98%.
-Epoch: 30.	Avg.loss: 0.009568960058689117.	Accuracy: 79.22%.
-Epoch: 31.	Avg.loss: 0.00961692675948143.	Accuracy: 79.54%.
-Epoch: 32.	Avg.loss: 0.009645301973819733.	Accuracy: 79.9%.
-Epoch: 33.	Avg.loss: 0.009083150905370712.	Accuracy: 80.28%.
-Epoch: 34.	Avg.loss: 0.008704084849357604.	Accuracy: 81.28%.
-Checkpoint saved.	At epoch: 34.	With accuracy: 81.28%.
-Epoch: 35.	Avg.loss: 0.009048687881231308.	Accuracy: 80.5%.
-Epoch: 36.	Avg.loss: 0.008808961188793183.	Accuracy: 81.52%.
-Checkpoint saved.	At epoch: 36.	With accuracy: 81.52%.
-Epoch: 37.	Avg.loss: 0.008504582089185714.	Accuracy: 81.52%.
-Epoch: 38.	Avg.loss: 0.0087611751973629.	Accuracy: 81.24%.
-Epoch: 39.	Avg.loss: 0.008292792215198278.	Accuracy: 82.16%.
-Checkpoint saved.	At epoch: 39.	With accuracy: 82.16%.
-Epoch: 40.	Avg.loss: 0.008396305721998214.	Accuracy: 81.86%.
-Epoch: 41.	Avg.loss: 0.008475426077842713.	Accuracy: 82.22%.
-Checkpoint saved.	At epoch: 41.	With accuracy: 82.22%.
-Epoch: 42.	Avg.loss: 0.008372853791713715.	Accuracy: 82.34%.
-Checkpoint saved.	At epoch: 42.	With accuracy: 82.34%.
-Epoch: 43.	Avg.loss: 0.008651610773801804.	Accuracy: 82.12%.
-Epoch: 44.	Avg.loss: 0.008218191862106324.	Accuracy: 82.32%.
-Epoch: 45.	Avg.loss: 0.008025386509299279.	Accuracy: 82.36%.
-Checkpoint saved.	At epoch: 45.	With accuracy: 82.36%.
-Epoch: 46.	Avg.loss: 0.008180475127696991.	Accuracy: 82.52%.
-Checkpoint saved.	At epoch: 46.	With accuracy: 82.52%.
-Epoch: 47.	Avg.loss: 0.008446770119667053.	Accuracy: 81.76%.
-Epoch: 48.	Avg.loss: 0.008425929997861386.	Accuracy: 81.72%.
-Epoch: 49.	Avg.loss: 0.008080544267594815.	Accuracy: 82.74%.
-Checkpoint saved.	At epoch: 49.	With accuracy: 82.74%.
-Epoch: 50.	Avg.loss: 0.00820660815834999.	Accuracy: 82.74%.
-Epoch: 51.	Avg.loss: 0.008665653941035271.	Accuracy: 81.62%.
-Epoch: 52.	Avg.loss: 0.008363526079058646.	Accuracy: 82.42%.
-Epoch: 53.	Avg.loss: 0.008117196184396745.	Accuracy: 82.98%.
-Checkpoint saved.	At epoch: 53.	With accuracy: 82.98%.
-Epoch: 54.	Avg.loss: 0.008174001190066338.	Accuracy: 83.2%.
-Checkpoint saved.	At epoch: 54.	With accuracy: 83.2%.
-Epoch: 55.	Avg.loss: 0.007881798338890076.	Accuracy: 83.24%.
-Checkpoint saved.	At epoch: 55.	With accuracy: 83.24%.
-Epoch: 56.	Avg.loss: 0.007609105396270752.	Accuracy: 83.34%.
-Checkpoint saved.	At epoch: 56.	With accuracy: 83.34%.
-Epoch: 57.	Avg.loss: 0.007821078196167945.	Accuracy: 83.2%.
-Epoch: 58.	Avg.loss: 0.008019390958547591.	Accuracy: 83.66%.
-Checkpoint saved.	At epoch: 58.	With accuracy: 83.66%.
-Epoch: 59.	Avg.loss: 0.008227100878953933.	Accuracy: 82.84%.
-Epoch: 60.	Avg.loss: 0.007921722269058228.	Accuracy: 83.24%.
-Epoch: 61.	Avg.loss: 0.007768775406479835.	Accuracy: 83.94%.
-Checkpoint saved.	At epoch: 61.	With accuracy: 83.94%.
-Epoch: 62.	Avg.loss: 0.008000659328699112.	Accuracy: 83.32%.
-Epoch: 63.	Avg.loss: 0.008315194368362427.	Accuracy: 82.44%.
-Epoch: 64.	Avg.loss: 0.007858658373355866.	Accuracy: 84.06%.
-Checkpoint saved.	At epoch: 64.	With accuracy: 84.06%.
-Epoch: 65.	Avg.loss: 0.008152797743678093.	Accuracy: 83.24%.
-Epoch: 66.	Avg.loss: 0.0081378693908453.	Accuracy: 83.14%.
-Epoch: 67.	Avg.loss: 0.008415712589025497.	Accuracy: 82.94%.
-Epoch: 68.	Avg.loss: 0.00790252749323845.	Accuracy: 83.56%.
-Epoch: 69.	Avg.loss: 0.007903667157888412.	Accuracy: 83.94%.
-Epoch: 70.	Avg.loss: 0.007607717454433441.	Accuracy: 84.0%.
-Epoch: 71.	Avg.loss: 0.007704156252741814.	Accuracy: 84.46%.
-Checkpoint saved.	At epoch: 71.	With accuracy: 84.46%.
-Epoch: 72.	Avg.loss: 0.00796841872036457.	Accuracy: 83.88%.
-Epoch: 73.	Avg.loss: 0.007411235037446022.	Accuracy: 84.6%.
-Checkpoint saved.	At epoch: 73.	With accuracy: 84.6%.
-Epoch: 74.	Avg.loss: 0.008549908483028413.	Accuracy: 82.64%.
-Epoch: 75.	Avg.loss: 0.008053643250465392.	Accuracy: 83.76%.
-Epoch: 76.	Avg.loss: 0.007929304137825966.	Accuracy: 83.94%.
-Epoch: 77.	Avg.loss: 0.009749947369098663.	Accuracy: 80.54%.
-Epoch: 78.	Avg.loss: 0.007710642603039742.	Accuracy: 84.34%.
-Epoch: 79.	Avg.loss: 0.007728314900398254.	Accuracy: 84.0%.
-Epoch: 80.	Avg.loss: 0.008473085793852806.	Accuracy: 82.94%.
-Epoch: 81.	Avg.loss: 0.00752209462672472.	Accuracy: 84.0%.
-Epoch: 82.	Avg.loss: 0.0078207534044981.	Accuracy: 84.28%.
-Epoch: 83.	Avg.loss: 0.00777684186398983.	Accuracy: 84.42%.
-Epoch: 84.	Avg.loss: 0.007693571031093597.	Accuracy: 83.6%.
-Epoch: 85.	Avg.loss: 0.007603150168061256.	Accuracy: 84.48%.
-Epoch: 86.	Avg.loss: 0.008139998742938042.	Accuracy: 83.62%.
-Epoch: 87.	Avg.loss: 0.007917527997493744.	Accuracy: 84.08%.
-Epoch: 88.	Avg.loss: 0.007895199631131253.	Accuracy: 84.08%.
-Epoch: 89.	Avg.loss: 0.007069395613670349.	Accuracy: 85.1%.
-Checkpoint saved.	At epoch: 89.	With accuracy: 85.1%.
-Epoch: 90.	Avg.loss: 0.007712839636206627.	Accuracy: 84.46%.
-Epoch: 91.	Avg.loss: 0.007941288575530052.	Accuracy: 83.96%.
-Epoch: 92.	Avg.loss: 0.00778459185063839.	Accuracy: 84.88%.
-Epoch: 93.	Avg.loss: 0.00783151322901249.	Accuracy: 84.04%.
-Epoch: 94.	Avg.loss: 0.007888029903173447.	Accuracy: 84.12%.
-Epoch: 95.	Avg.loss: 0.00779509799182415.	Accuracy: 84.46%.
-Epoch: 96.	Avg.loss: 0.007737274080514908.	Accuracy: 85.0%.
-Epoch: 97.	Avg.loss: 0.0074401188991963865.	Accuracy: 84.5%.
-Epoch: 98.	Avg.loss: 0.007385094106197357.	Accuracy: 84.74%.
-Epoch: 99.	Avg.loss: 0.007312399584054947.	Accuracy: 84.86%.
-Epoch: 100.	Avg.loss: 0.007680926024913787.	Accuracy: 84.68%.
-Test accuracy: 84.94%.	Correct: 4247.	Total: 5000.
+Epoch: 1.   Avg.loss: 1.4685257914700085.   Accuracy: 49.22%.
+Checkpoint saved.   At epoch: 1.    With accuracy: 49.22%.
+Epoch: 2.   Avg.loss: 1.1976089258737201.   Accuracy: 57.68%.
+Checkpoint saved.   At epoch: 2.    With accuracy: 57.68%.
+Epoch: 3.   Avg.loss: 1.1106573750701132.   Accuracy: 59.66%.
+Checkpoint saved.   At epoch: 3.    With accuracy: 59.66%.
+Epoch: 4.   Avg.loss: 1.064596643930749.    Accuracy: 62.34%.
+Checkpoint saved.   At epoch: 4.    With accuracy: 62.34%.
+Epoch: 5.   Avg.loss: 0.9466559007952485.   Accuracy: 66.56%.
+Checkpoint saved.   At epoch: 5.    With accuracy: 66.56%.
+Epoch: 6.   Avg.loss: 0.9164029216464562.   Accuracy: 67.5%.
+Checkpoint saved.   At epoch: 6.    With accuracy: 67.5%.
+Epoch: 7.   Avg.loss: 0.9177513937406903.   Accuracy: 67.68%.
+Checkpoint saved.   At epoch: 7.    With accuracy: 67.68%.
+Epoch: 8.   Avg.loss: 0.8561459025250205.   Accuracy: 70.38%.
+Checkpoint saved.   At epoch: 8.    With accuracy: 70.38%.
+Epoch: 9.   Avg.loss: 0.8229429850095435.   Accuracy: 71.38%.
+Checkpoint saved.   At epoch: 9.    With accuracy: 71.38%.
+Epoch: 10.  Avg.loss: 0.8253646489185623.   Accuracy: 71.2%.
+Epoch: 11.  Avg.loss: 0.7527728205240225.   Accuracy: 73.28%.
+Checkpoint saved.   At epoch: 11.   With accuracy: 73.28%.
+Epoch: 12.  Avg.loss: 0.7668685139734533.   Accuracy: 72.8%.
+Epoch: 13.  Avg.loss: 0.7219083305401138.   Accuracy: 75.06%.
+Checkpoint saved.   At epoch: 13.   With accuracy: 75.06%.
+Epoch: 14.  Avg.loss: 0.7190876350372652.   Accuracy: 75.12%.
+Checkpoint saved.   At epoch: 14.   With accuracy: 75.12%.
+Epoch: 15.  Avg.loss: 0.6790688573559628.   Accuracy: 76.12%.
+Checkpoint saved.   At epoch: 15.   With accuracy: 76.12%.
+Epoch: 16.  Avg.loss: 0.7289437485646598.   Accuracy: 73.98%.
+Epoch: 17.  Avg.loss: 0.6764463374886331.   Accuracy: 76.3%.
+Checkpoint saved.   At epoch: 17.   With accuracy: 76.3%.
+Epoch: 18.  Avg.loss: 0.6505170106133328.   Accuracy: 77.56%.
+Checkpoint saved.   At epoch: 18.   With accuracy: 77.56%.
+Epoch: 19.  Avg.loss: 0.6598439959785606.   Accuracy: 77.34%.
+Epoch: 20.  Avg.loss: 0.6458878373797936.   Accuracy: 77.64%.
+Checkpoint saved.   At epoch: 20.   With accuracy: 77.64%.
+Epoch: 21.  Avg.loss: 0.6121740167654013.   Accuracy: 79.06%.
+Checkpoint saved.   At epoch: 21.   With accuracy: 79.06%.
+Epoch: 22.  Avg.loss: 0.6209644912918911.   Accuracy: 78.82%.
+Epoch: 23.  Avg.loss: 0.6182890696616112.   Accuracy: 79.06%.
+Epoch: 24.  Avg.loss: 0.5980406958091108.   Accuracy: 79.64%.
+Checkpoint saved.   At epoch: 24.   With accuracy: 79.64%.
+Epoch: 25.  Avg.loss: 0.6040159316757058.   Accuracy: 79.52%.
+Epoch: 26.  Avg.loss: 0.6040245969838733.   Accuracy: 79.58%.
+Epoch: 27.  Avg.loss: 0.5879587519772446.   Accuracy: 80.06%.
+Checkpoint saved.   At epoch: 27.   With accuracy: 80.06%.
+Epoch: 28.  Avg.loss: 0.5665271429321433.   Accuracy: 80.7%.
+Checkpoint saved.   At epoch: 28.   With accuracy: 80.7%.
+Epoch: 29.  Avg.loss: 0.5765145072076894.   Accuracy: 80.48%.
+Epoch: 30.  Avg.loss: 0.5811399587347538.   Accuracy: 80.18%.
+Epoch: 31.  Avg.loss: 0.5697790757764744.   Accuracy: 81.38%.
+Checkpoint saved.   At epoch: 31.   With accuracy: 81.38%.
+Epoch: 32.  Avg.loss: 0.538573345617403.    Accuracy: 81.98%.
+Checkpoint saved.   At epoch: 32.   With accuracy: 81.98%.
+Epoch: 33.  Avg.loss: 0.5649465552613705.   Accuracy: 80.96%.
+Epoch: 34.  Avg.loss: 0.5705376659767537.   Accuracy: 80.86%.
+Epoch: 35.  Avg.loss: 0.5573140748693973.   Accuracy: 81.92%.
+Epoch: 36.  Avg.loss: 0.5491408452957491.   Accuracy: 81.94%.
+Epoch: 37.  Avg.loss: 0.5483411303426646.   Accuracy: 82.34%.
+Checkpoint saved.   At epoch: 37.   With accuracy: 82.34%.
+Epoch: 38.  Avg.loss: 0.5466509929186181.   Accuracy: 81.98%.
+Epoch: 39.  Avg.loss: 0.536432229265382.    Accuracy: 82.22%.
+Epoch: 40.  Avg.loss: 0.5482885230191147.   Accuracy: 81.68%.
+Epoch: 41.  Avg.loss: 0.5188144479371324.   Accuracy: 82.4%.
+Checkpoint saved.   At epoch: 41.   With accuracy: 82.4%.
+Epoch: 42.  Avg.loss: 0.5419472501247744.   Accuracy: 81.78%.
+Epoch: 43.  Avg.loss: 0.5184171071535424.   Accuracy: 82.68%.
+Checkpoint saved.   At epoch: 43.   With accuracy: 82.68%.
+Epoch: 44.  Avg.loss: 0.5388344707368296.   Accuracy: 82.6%.
+Epoch: 45.  Avg.loss: 0.4965353219569484.   Accuracy: 82.86%.
+Checkpoint saved.   At epoch: 45.   With accuracy: 82.86%.
+Epoch: 46.  Avg.loss: 0.5018703209448464.   Accuracy: 83.82%.
+Checkpoint saved.   At epoch: 46.   With accuracy: 83.82%.
+Epoch: 47.  Avg.loss: 0.49865540598012226.  Accuracy: 83.2%.
+Epoch: 48.  Avg.loss: 0.504020012632201.    Accuracy: 83.38%.
+Epoch: 49.  Avg.loss: 0.5352507131763652.   Accuracy: 82.78%.
+Epoch: 50.  Avg.loss: 0.5387834916009179.   Accuracy: 82.28%.
+Epoch: 51.  Avg.loss: 0.5229457130160513.   Accuracy: 82.92%.
+Epoch: 52.  Avg.loss: 0.5160543775256676.   Accuracy: 83.34%.
+Epoch: 53.  Avg.loss: 0.5135940431228166.   Accuracy: 82.92%.
+Epoch: 54.  Avg.loss: 0.5081530913144727.   Accuracy: 83.14%.
+Epoch: 55.  Avg.loss: 0.5177915696101852.   Accuracy: 82.92%.
+Epoch: 56.  Avg.loss: 0.5295070951120763.   Accuracy: 82.6%.
+Epoch: 57.  Avg.loss: 0.5070089513931093.   Accuracy: 83.3%.
+Epoch: 58.  Avg.loss: 0.5236270167405093.   Accuracy: 83.16%.
+Epoch: 59.  Avg.loss: 0.4865058448307122.   Accuracy: 83.64%.
+Epoch: 60.  Avg.loss: 0.5003547023368787.   Accuracy: 83.6%.
+Epoch: 61.  Avg.loss: 0.494377275810966.    Accuracy: 83.88%.
+Checkpoint saved.   At epoch: 61.   With accuracy: 83.88%.
+Epoch: 62.  Avg.loss: 0.4822152969957907.   Accuracy: 83.78%.
+Epoch: 63.  Avg.loss: 0.4832566222058067.   Accuracy: 83.98%.
+Checkpoint saved.   At epoch: 63.   With accuracy: 83.98%.
+Epoch: 64.  Avg.loss: 0.4952583950531634.   Accuracy: 83.9%.
+Epoch: 65.  Avg.loss: 0.5160760736163659.   Accuracy: 83.24%.
+Epoch: 66.  Avg.loss: 0.497677254525921.    Accuracy: 83.74%.
+Epoch: 67.  Avg.loss: 0.48473844196223004.  Accuracy: 84.1%.
+Checkpoint saved.   At epoch: 67.   With accuracy: 84.1%.
+Epoch: 68.  Avg.loss: 0.4896859153162075.   Accuracy: 84.32%.
+Checkpoint saved.   At epoch: 68.   With accuracy: 84.32%.
+Epoch: 69.  Avg.loss: 0.5010379083171675.   Accuracy: 84.0%.
+Epoch: 70.  Avg.loss: 0.5172292620320863.   Accuracy: 84.02%.
+Epoch: 71.  Avg.loss: 0.514519253863564.    Accuracy: 84.12%.
+Epoch: 72.  Avg.loss: 0.46943939901605436.  Accuracy: 84.62%.
+Checkpoint saved.   At epoch: 72.   With accuracy: 84.62%.
+Epoch: 73.  Avg.loss: 0.5158605600082422.   Accuracy: 83.02%.
+Epoch: 74.  Avg.loss: 0.4847755566050735.   Accuracy: 83.8%.
+Epoch: 75.  Avg.loss: 0.48836775407006466.  Accuracy: 84.12%.
+Epoch: 76.  Avg.loss: 0.48292308338458023.  Accuracy: 84.36%.
+Epoch: 77.  Avg.loss: 0.5320966236199005.   Accuracy: 83.28%.
+Epoch: 78.  Avg.loss: 0.5041476940806908.   Accuracy: 84.2%.
+Epoch: 79.  Avg.loss: 0.47785121994977225.  Accuracy: 84.46%.
+Epoch: 80.  Avg.loss: 0.4852956380647949.   Accuracy: 84.44%.
+Epoch: 81.  Avg.loss: 0.49958579694922967.  Accuracy: 84.28%.
+Epoch: 82.  Avg.loss: 0.5034302961599978.   Accuracy: 84.54%.
+Epoch: 83.  Avg.loss: 0.4817121457072753.   Accuracy: 84.74%.
+Checkpoint saved.   At epoch: 83.   With accuracy: 84.74%.
+Epoch: 84.  Avg.loss: 0.5281265068657791.   Accuracy: 83.68%.
+Epoch: 85.  Avg.loss: 0.4943298593729357.   Accuracy: 84.32%.
+Epoch: 86.  Avg.loss: 0.4878257401759111.   Accuracy: 84.42%.
+Epoch: 87.  Avg.loss: 0.5151079568681838.   Accuracy: 83.86%.
+Epoch: 88.  Avg.loss: 0.4970750826634938.   Accuracy: 84.58%.
+Epoch: 89.  Avg.loss: 0.4692003770342356.   Accuracy: 84.78%.
+Checkpoint saved.   At epoch: 89.   With accuracy: 84.78%.
+Epoch: 90.  Avg.loss: 0.48506798189652117.  Accuracy: 84.24%.
+Epoch: 91.  Avg.loss: 0.45992237692580945.  Accuracy: 84.9%.
+Checkpoint saved.   At epoch: 91.   With accuracy: 84.9%.
+Epoch: 92.  Avg.loss: 0.43850338789103904.  Accuracy: 85.26%.
+Checkpoint saved.   At epoch: 92.   With accuracy: 85.26%.
+Epoch: 93.  Avg.loss: 0.4878407622439952.   Accuracy: 84.6%.
+Epoch: 94.  Avg.loss: 0.5003795763359794.   Accuracy: 84.16%.
+Epoch: 95.  Avg.loss: 0.47985146788856653.  Accuracy: 85.28%.
+Checkpoint saved.   At epoch: 95.   With accuracy: 85.28%.
+Epoch: 96.  Avg.loss: 0.4611473189124578.   Accuracy: 85.12%.
+Epoch: 97.  Avg.loss: 0.48370853349377835.  Accuracy: 84.48%.
+Epoch: 98.  Avg.loss: 0.4956421955854078.   Accuracy: 84.32%.
+Epoch: 99.  Avg.loss: 0.4646219132067282.   Accuracy: 84.86%.
+Epoch: 100. Avg.loss: 0.48857293438307847.  Accuracy: 84.28%.
+Test accuracy: 83.46%.  Correct: 4173.  Total: 5000.
